@@ -1,7 +1,10 @@
 // import { useState } from "react";
+// import ColorPicker from "../../common/ColorPicker";
+// import Card from "../../common/Card/Card";
+
+import { PasswordGenerator } from "../../common/PasswordGenerator";
 
 function Home() {
-
   {/* counter task */}
   // const [count, setCount] = useState(1);
 //   const onAdd = () => {
@@ -19,17 +22,23 @@ function Home() {
 //       alert("Count cannot be less than 0");
 //     } 
 //   }
-
-
   return(
   <>  
-
   {/* counter task */}
   {/* <h1>Counter </h1>
   <button onClick={onAdd}>Add {count}</button>
   <button onClick={onRemove}>Remove {count}</button> */}
-
   {/*  */}
+  {/* props */}
+{/* <Card name='Dhrumi' btntext="View Profile"/>
+<Card name='Dummy'/> */}
+   {/* color picker task */}
+   {/* <ColorPicker /> */}
+
+   <PasswordGenerator />
+
+
+
   </>
    )
 }
